@@ -12,7 +12,7 @@ super + n
 
 # launch browser
 super + b
-    firefox
+    flatpak run com.brave.Browser
 
 # program launcher
 super + p
