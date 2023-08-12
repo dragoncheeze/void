@@ -1,3 +1,3 @@
 #!/bin/bash
 sudo xbps-install linux-firmware-amd &&
-sudo xbps-reconfigure --force linux6.1
+sudo xbps-reconfigure --force linux6.3
