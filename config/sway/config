@@ -7,30 +7,24 @@
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
-exec autotiling
-exec pipewire
-exec pipewire-pulse
 set $mod Mod4
-default_border pixel 2
+exec lxpolkit
+exec pulseaudio
+exec wireplumber
+exec_always autotiling
 # Home row direction keys, like vim
 set $left h
 set $down j
 set $up k
 set $right l
-# Your preferred terminal emulator
-set $term alacritty
-# Your preferred application launcher
-# Note: pass the final command to swaymsg so that the resulting window can be opened
-# on the original workspace that the command was run on.
-set $menu dmenu_path | dmenu | xargs swaymsg exec --
 
-include /etc/sway/config-vars.d/*
+# Variables
+set $term alacritty
+set $menu rofi -show-icons -show drun
 
 ### Output configuration
-#
-# Default wallpaper (more resolutions are available in /usr/share/backgrounds/sway/)
-output * bg ~/builds/dotfiles/themes/wallpaper/void.png fill
-#
+output * bg ~/builds/dotfiles/themes/wallpaper/black.jpg fill
+
 # Example configuration:
 #
 #   output HDMI-A-1 resolution 1920x1080 position 1920,0
@@ -43,7 +37,7 @@ output * bg ~/builds/dotfiles/themes/wallpaper/void.png fill
 #
 # exec swayidle -w \
 #          timeout 300 'swaylock -f -c 000000' \
-#          timeout 600 'swaymsg "output * dpms off"' resume 'swaymsg "output * dpms on"' \
+#          timeout 600 'swaymsg "output * power off"' resume 'swaymsg "output * power on"' \
 #          before-sleep 'swaylock -f -c 000000'
 #
 # This will lock your screen after 300 seconds of inactivity, then turn off
@@ -70,23 +64,13 @@ output * bg ~/builds/dotfiles/themes/wallpaper/void.png fill
 #
     # Start a terminal
     bindsym $mod+Return exec $term
-    #bindsym $mod+b exec brave --enable-features=UseOzonePlatform --ozone-platform=wayland
-    bindsym $mod+b exec firefox
     bindsym $mod+n exec thunar
-
-    # audio
-    bindsym XF86AudioRaiseVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ +10%
-    bindsym XF86AudioLowerVolume exec --no-startup-id pactl set-sink-volume @DEFAULT_SINK@ -10%
-    bindsym XF86AudioMute exec --no-startup-id pactl set-sink-mute @DEFAULT_SINK@ toggle
-
+    bindsym $mod+b exec firefox-wayland
     # Kill focused window
     bindsym $mod+x kill
 
-    # Other programs
-    bindsym $mod+g exec --no-startup-id lutris
-
     # Start your launcher
-    bindsym $mod+p exec rofi -show drun -show-icons
+    bindsym $mod+p exec $menu
 
     # Drag floating windows by holding down $mod and left mouse button.
     # Resize them with right mouse button + $mod.
@@ -96,19 +80,10 @@ output * bg ~/builds/dotfiles/themes/wallpaper/void.png fill
     floating_modifier $mod normal
 
     # Reload the configuration file
-    bindsym $mod+Shift+c reload
+    bindsym $mod+Shift+r reload
 
     # Exit sway (logs you out of your Wayland session)
-    bindsym $mod+Shift+e exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -b 'Yes, exit sway' 'swaymsg exit'
-
-# Window rules
-for_window [app_id="battle.net.exe"] floating enable
-for_window [app_id="lutris"] floating enable
-for_window [app_id="org.gnome.Calculator"] floating enable
-
-# Theme Colors  border   bg      text    indic child
-client.focused #50fa7b #fd0000 #000000 #8be9fd #8ec07c
-
+    bindsym $mod+Shift+q exec swaynag -t warning -m 'You pressed the exit shortcut. Do you really want to exit sway? This will end your Wayland session.' -B 'Yes, exit sway' 'swaymsg exit'
 #
 # Moving around:
 #
@@ -226,22 +201,16 @@ bindsym $mod+r mode "resize"
 # Status Bar:
 #
 # Read `man 5 sway-bar` for more information about this section.
+
 bar {
     position top
-    status_command conky
-    # When the status_command prints a new line to stdout, swaybar updates.
-    # The default just shows the current date and time.
-    #status_command while date +'%m-%d %l:%M %p'; do sleep 1; done
-
-    colors {
-        statusline #ebdbb2
-        background #282828
-        inactive_workspace #282828 #282828 #d5c4a1
-        active_workspace #427b58 #427b58 #ebdbb2
-        focused_workspace #427b58 #427b58 #ebdbb2
-    }
+    status_command i3status
+    font pango:Ubuntu Mono 14
 }
 
-include /etc/sway/config.d/*
-
+default_border pixel 2
+default_floating_border pixel 2
 gaps inner 5
+gaps outer 0
+
+include ~/.config/sway/conf.d/*
