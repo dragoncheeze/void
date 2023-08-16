@@ -23,7 +23,7 @@ set $term alacritty
 set $menu rofi -show-icons -show drun
 
 ### Output configuration
-output * bg ~/builds/dotfiles/themes/wallpaper/black.jpg fill
+output * bg ~/builds/wallpaper/black.jpg fill
 
 # Example configuration:
 #
