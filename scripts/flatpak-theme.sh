@@ -1,3 +1,3 @@
 #!/bin/bash
 sudo flatpak override --filesystem=$HOME/.themes &&
-sudo flatpak override --env=GTK_THEME=Gruvbox-Material-Dark
+sudo flatpak override --env=GTK_THEME=Adwaita-dark
