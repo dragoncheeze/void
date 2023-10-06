@@ -3,15 +3,13 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
-
+exec lxpolkit
+exec pulseaudio
+exec_always autotiling
 ### Variables
 #
 # Logo key. Use Mod1 for Alt.
 set $mod Mod4
-exec lxpolkit
-exec pipewire
-exec wireplumber
-exec_always autotiling
 # Home row direction keys, like vim
 set $left h
 set $down j
