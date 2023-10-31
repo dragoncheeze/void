@@ -21,7 +21,7 @@ set $term alacritty
 set $menu rofi -show-icons -show drun
 
 ### Output configuration
-output * bg ~/builds/wallpaper/black.jpg fill
+output * bg ~/builds/wallpaper/void.png fill
 
 # Example configuration:
 #
@@ -204,6 +204,12 @@ bar {
     position top
     status_command i3status
     font pango:Ubuntu Mono 14
+    colors {
+	   statusline #ffffff
+       background #44475a
+       focused_workspace #44475a #6272a4 #f8f8f2
+       inactive_workspace #282a36 #282a36 #5c5c5c
+    }
 }
 
 default_border pixel 2
