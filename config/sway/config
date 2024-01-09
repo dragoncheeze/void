@@ -17,7 +17,7 @@ set $up k
 set $right l
 
 # Variables
-set $term alacritty
+set $term foot
 set $menu rofi -show-icons -show drun
 
 ### Output configuration
