@@ -21,7 +21,7 @@ set $term foot
 set $menu rofi -show-icons -show drun
 
 ### Output configuration
-output * bg ~/builds/wallpaper/void.png fill
+output * bg ~/builds/wallpaper/woods.png fill mode 1920x1080@75Hz
 
 # Example configuration:
 #
@@ -63,7 +63,8 @@ output * bg ~/builds/wallpaper/void.png fill
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym $mod+n exec thunar
-    bindsym $mod+b exec firefox-wayland
+    bindsym $mod+b exec firefox
+    bindsym $mod+g exec flatpak run net.lutris.Lutris
     # Kill focused window
     bindsym $mod+x kill
 
@@ -207,15 +208,15 @@ bar {
     status_command i3status
     font pango:Ubuntu Mono 14
     colors {
-	   statusline #ffffff
-       background #44475a
-       focused_workspace #44475a #6272a4 #f8f8f2
-       inactive_workspace #282a36 #282a36 #5c5c5c
+	   statusline #ebdbb2
+       background #282828
+       focused_workspace #ebdbb2 #458588 #ebdbb2
+       inactive_workspace #3c3836 #1d2021 #a89984
     }
 }
 
-default_border pixel 2
-default_floating_border pixel 2
+default_border pixel 3
+default_floating_border pixel 3
 gaps inner 5
 gaps outer 0
 
