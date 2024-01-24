@@ -4,8 +4,8 @@ sudo xbps-install linux-headers playerctl base-devel \
     gnome-keyring xdg-desktop-portal-gtk xmirror cronie \
     chrony pulseaudio libpulseaudio-32bit wl-clipboard \
     freetype freetype-32bit fontconfig-devel libX11-devel \
-    libXft-devel libXinerama-devel elogind eudev nss-mdns xorg \
-    xtools vkd3d vkd3d-32bit vulkan-loader vulkan-loader-32bit \
+    libXft-devel libXinerama-devel elogind nss-mdns xorg \
+    xtools vulkan-loader vulkan-loader-32bit \
     cups ipp-usb cups-filters ghostscript xorg-apps xdg-desktop-portal \
     xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils \
     python fuse dunst wine wine-32bit rsync foot alacritty firefox \
