@@ -3,7 +3,7 @@
 sudo xbps-install linux-headers base-devel xmirror gnome-keyring cronie \
     chrony pulseaudio libpulseaudio-32bit xclip freetype freetype-32bit \
     fontconfig-devel libX11-devel libXft-devel libXinerama-devel elogind \
-    eudev nss-mdns xorg xtools vkd3d vkd3d-32bit vulkan-loader \
+    eudev nss-mdns xorg xtools vulkan-loader \
     vulkan-loader-32bit cups ipp-usb cups-filters ghostscript xorg-apps \
     xdg-desktop-portal xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk \
     xdg-utils python fuse dunst wine wine-32bit rsync alacritty firefox dmenu \
@@ -13,4 +13,4 @@ sudo xbps-install linux-headers base-devel xmirror gnome-keyring cronie \
     Thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler \
     gvfs xarchiver rofi galculator-gtk3 geany gamemode lxsession curl wget cargo \
     sxiv scrot nitrogen alsa-utils mesa-dri-32bit arc-theme neofetch htop mpv \
-    bspwm sxhkd polybar autotiling -yy
+    i3 i3status autotiling -yy
