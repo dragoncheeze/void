@@ -17,6 +17,6 @@ sudo xbps-install linux-headers playerctl base-devel \
     curl wget alsa-utils mesa-dri-32bit arc-theme neofetch htop imv i3status \
     sway seatd autotiling -yy &&
 # Lutris Gaming
-sudo xbps-install lutris libunwind libunwind-32bit mesa-dri mesa-vaapi \
+sudo xbps-install libunwind libunwind-32bit mesa-dri mesa-vaapi \
     mesa-vdpau mesa-vulkan-radeon vulkan-loader vulkan-loader-32bit \
     mesa-vulkan-radeon-32bit -yy
