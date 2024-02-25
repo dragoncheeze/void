@@ -4,7 +4,7 @@
 #
 # Read `man 5 sway` for a complete reference.
 exec lxpolkit
-exec pulseaudio -D
+exec pipewire
 exec_always autotiling
 ### Variables
 #
@@ -64,7 +64,7 @@ output * bg ~/builds/wallpaper/woods.png fill mode 1920x1080@75Hz
     bindsym $mod+Return exec $term
     bindsym $mod+n exec thunar
     bindsym $mod+b exec firefox
-    bindsym $mod+g exec flatpak run net.lutris.Lutris
+    bindsym $mod+g exec lutris
     # Kill focused window
     bindsym $mod+x kill
 
