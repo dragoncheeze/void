@@ -2,7 +2,7 @@
 # Default programs
 sudo xbps-install linux-headers playerctl base-devel \
     gnome-keyring xdg-desktop-portal-gtk xmirror cronie \
-    chrony pulseaudio libpulseaudio-32bit wl-clipboard \
+    chrony pulseaudio pipewire libpulseaudio-32bit wl-clipboard \
     freetype freetype-32bit elogind nss-mdns \
     xtools vulkan-loader vulkan-loader-32bit xorg-server-xwayland\
     cups ipp-usb cups-filters ghostscript xdg-desktop-portal \
