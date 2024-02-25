@@ -206,7 +206,7 @@ bindsym $mod+r mode "resize"
 bar {
     position top
     status_command i3status
-    font pango:Ubuntu Mono 14
+    font pango:Ubuntu 14
     colors {
 	   statusline #ebdbb2
        background #282828
