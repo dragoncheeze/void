@@ -1,6 +1,6 @@
 #!/bin/bash
 ## variables
-version=1.62.165
+version=1.63.165
 name=brave-bin
 ## Download latest .deb
 wget https://github.com/brave/brave-browser/releases/download/v$version/brave-browser_${version}_amd64.deb &&
