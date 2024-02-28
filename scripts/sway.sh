@@ -14,7 +14,7 @@ sudo xbps-install linux-headers playerctl base-devel \
     Thunar file-roller thunar-archive-plugin thunar-media-tags-plugin \
     thunar-volman tumbler gvfs rofi galculator-gtk3 geany gamemode lxsession \
     curl wget alsa-utils mesa-dri-32bit arc-theme neofetch htop imv i3status \
-    sway seatd autotiling -yy &&
+    sway seatd autotiling lxappearance -yy &&
 # Lutris Gaming
 sudo xbps-install lutris libunwind libunwind-32bit mesa-dri mesa-vaapi \
     mesa-vdpau mesa-vulkan-radeon vulkan-loader vulkan-loader-32bit \
