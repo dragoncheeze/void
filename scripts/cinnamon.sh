@@ -14,6 +14,6 @@ sudo xbps-install base-devel \
     galculator-gtk3 geany gamemode gettext \
     curl wget alsa-utils mesa-dri-32bit arc-theme neofetch htop -yy &&
 # Lutris Gaming
-sudo xbps-install lutris libunwind libunwind-32bit mesa-dri mesa-vaapi \
+sudo xbps-install lutris steam libunwind libunwind-32bit mesa-dri mesa-vaapi \
     mesa-vdpau mesa-vulkan-radeon vulkan-loader vulkan-loader-32bit \
     mesa-vulkan-radeon-32bit -yy
