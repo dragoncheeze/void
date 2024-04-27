@@ -12,7 +12,7 @@ sudo xbps-install base-devel \
     libldap-32bit libgpg-error-32bit sqlite-32bit libpulseaudio-32bit \
     alsa-plugins-32bit pulsemixer papirus-icon-theme \
     galculator-gtk3 geany gamemode gettext simple-scan \
-    lightdm lightdm-gtk3-greeter ligthdm-gtk-greeter-settings \
+    lightdm lightdm-gtk3-greeter lightdm-gtk-greeter-settings \
     curl wget alsa-utils mesa-dri-32bit arc-theme neofetch htop -yy &&
 # Lutris Gaming
 sudo xbps-install lutris steam libunwind libunwind-32bit mesa-dri mesa-vaapi \
