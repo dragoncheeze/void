@@ -4,7 +4,7 @@ sudo xbps-install base-devel \
     gnome-keyring xdg-desktop-portal-gtk xmirror cronie \
     chrony pulseaudio libpulseaudio-32bit \
     freetype freetype-32bit elogind nss-mdns \
-    xtools xorg cinnamon-all lxappearance \
+    xtools xorg cinnamon-all gnome-terminal lxappearance \
     cups ipp-usb cups-filters ghostscript xdg-desktop-portal \
     xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils \
     python fuse wine wine-32bit rsync firefox \
