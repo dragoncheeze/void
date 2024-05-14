@@ -3,7 +3,7 @@
 sudo xbps-install linux-headers playerctl base-devel \
     gnome-keyring xdg-desktop-portal-gtk xmirror cronie \
     chrony pulseaudio pipewire libpulseaudio-32bit wl-clipboard \
-    freetype freetype-32bit elogind nss-mdns \
+    freetype freetype-32bit elogind nss-mdns dejavu-fonts-ttf \
     xtools vulkan-loader vulkan-loader-32bit xorg-server-xwayland\
     cups ipp-usb cups-filters ghostscript xdg-desktop-portal \
     xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils \
