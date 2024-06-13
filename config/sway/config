@@ -3,8 +3,9 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
+seat seat0 xcursor_theme Adwaita
 exec lxpolkit
-exec pipewire 
+exec pulseaudio -D
 exec_always autotiling
 ### Variables
 #
@@ -64,7 +65,7 @@ output * bg ~/builds/wallpaper/woods.png fill mode 1920x1080@75Hz
     bindsym $mod+Return exec $term
     bindsym $mod+n exec thunar
     bindsym $mod+b exec firefox
-    bindsym $mod+g exec lutris
+    bindsym $mod+g exec flatpak run net.lutris.Lutris
     # Kill focused window
     bindsym $mod+x kill
 
