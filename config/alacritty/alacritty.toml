@@ -1,0 +1,29 @@
+[colors.primary]
+background = "#000000"
+foreground = "#ffffff"
+
+[font]
+size = 16.0
+
+[font.bold]
+family = "Ubuntu Mono"
+style = "Bold"
+
+[font.bold_italic]
+family = "Ubuntu Mono"
+style = "Bold Italic"
+
+[font.italic]
+family = "Ubuntu Mono"
+style = "Italic"
+
+[font.normal]
+family = "Ubuntu Mono"
+style = "Regular"
+
+[window]
+opacity = 0.8
+
+[window.padding]
+x = 5
+y = 5
