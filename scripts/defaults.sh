@@ -12,5 +12,6 @@ sudo xbps-install linux-headers base-devel xmirror gnome-keyring cronie \
     picom lxappearance pavucontrol pulsemixer papirus-icon-theme \
     Thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler \
     gvfs xarchiver rofi galculator-gtk3 geany gamemode lxsession curl wget cargo \
-    sxiv scrot nitrogen alsa-utils mesa-dri-32bit arc-theme neofetch htop mpv \
+    sxiv scrot nitrogen alsa-utils mesa-dri-32bit arc-theme fastfetch noto-fonts-emoji \
+    htop mpv noto-fonts-ttf \
     i3 i3status autotiling -yy
