@@ -9,11 +9,12 @@ default_border pixel 5
 default_floating_border pixel 5
 
 exec --no-startup-id xss-lock --transfer-sleep-lock -- i3lock --nofork
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+exec --no-startup-id lxpolkit
 exec --no-startup-id picom
-exec --no-startup-id pipewire
-exec --no-startup-id pipewire-pulse
-exec --no-startup-id wireplumber 
+#exec --no-startup-id pipewire
+#exec --no-startup-id pipewire-pulse
+#exec --no-startup-id wireplumber
+exec --no-startup-id pulseaudio -D
 exec_always --no-startup-id autotiling
 exec --no-startup-id feh --bg-fill ~/builds/dotfiles/minimal-wallpaper/outrun.jpg
 
@@ -21,12 +22,12 @@ exec --no-startup-id feh --bg-fill ~/builds/dotfiles/minimal-wallpaper/outrun.jp
 floating_modifier $mod
 
 # start a terminal
-bindsym $mod+Return exec --no-startup-id st -e fish
+bindsym $mod+Return exec --no-startup-id st
 
 # custom binds
 #bindsym $mod+Escape exec i3-instant-layout --list | rofi -dmenu -i
 bindsym $mod+b exec --no-startup-id brave-browser-stable
-bindsym $mod+n exec --no-startup-id thunar 
+bindsym $mod+n exec --no-startup-id thunar
 bindsym $mod+g exec --no-startup-id lutris
 
 #kill focused window

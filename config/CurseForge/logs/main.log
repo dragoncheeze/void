@@ -1,0 +1,721 @@
+[2024-08-09 20:26:30.335] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com
+[2024-08-09 20:26:30.338] [info]  [ConfigurationServiceImpl] Current env: release
+[2024-08-09 20:26:30.346] [info]  [BackgroundController] App version: 1.257.1.19588
+[2024-08-09 20:26:30.346] [info]  [BackgroundController] OS: linux
+[2024-08-09 20:26:30.346] [info]  [BackgroundController] OS version: 6.6.44_1
+[2024-08-09 20:26:30.347] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFkOQget/curseforge
+[2024-08-09 20:26:30.491] [info]  [BackgroundController] Electron App Ready. Continuing Initialization...
+[2024-08-09 20:26:30.619] [info]  [DisplayModeEventHandler] Display mode changed - isSmallResolution: false
+[2024-08-09 20:26:30.982] [info]  [SessionStartedEventHandler] App session started
+[2024-08-09 20:26:30.984] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service
+[2024-08-09 20:26:30.984] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:26:30.995] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:26:31.029] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:26:31.079] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration
+[2024-08-09 20:26:31.079] [error] [LoginService] Failed to refresh tokens. Error: Missing refresh token!
+[2024-08-09 20:26:31.080] [error] [LoginService] Checking login status failed. User info is unavailable.
+[2024-08-09 20:26:31.080] [info]  [MinecraftUsersChangedEventHandler] Minecraft Users info loaded
+[2024-08-09 20:26:31.080] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ...
+[2024-08-09 20:26:31.081] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-08-09 20:26:31.081] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.257.1-19588
+[2024-08-09 20:26:31.081] [info]  Checking for update
+[2024-08-09 20:26:31.081] [info]  Electron Updater - Checking for application update
+[2024-08-09 20:26:31.082] [info]  Generated new staging user ID: 2ee919fc-4eb5-5053-b18e-cd80b43d9041
+[2024-08-09 20:26:31.205] [info]  Update for version 1.257.1-19588 is not available (latest version: 1.257.1-19588, downgrade is disallowed).
+[2024-08-09 20:26:31.205] [info]  Electron Updater - App update is not available. Latest Version: 1.257.1-19588. Release Date: 2024-07-31T07:20:19.240Z
+[2024-08-09 20:26:31.205] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-08-09 20:26:31.206] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-08-09 20:26:31.252] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:26:31.303] [info]  [PluginProcessHost] Starting Mods Agent with ports range 60018-60038
+[2024-08-09 20:26:31.303] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseFkOQget/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=60018,--to-port=60038,--pid=3119,--appDataPath=/home/colby/.config/CurseForge,--clientId=Overwolf
+[2024-08-09 20:26:31.307] [info]  [PluginProcessHost] Mods Agent started. pid: 3294
+[2024-08-09 20:26:31.808] [info]  [PluginProcessHost] Mods Agent process started
+[2024-08-09 20:26:31.808] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 60018-60038
+[2024-08-09 20:26:31.810] [error] [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:60018
+[2024-08-09 20:26:31.821] [error] [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-08-09 20:26:32.860] [info]  [PluginWebSocket] Connected to mods agent
+[2024-08-09 20:26:32.861] [info]  [PluginWebSocket] Connected to Mods Agent on port 60018
+[2024-08-09 20:26:33.538] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false
+[2024-08-09 20:26:33.580] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false
+[2024-08-09 20:26:33.580] [info]  [CoreServiceImpl] Mods agent was initialized successfully
+[2024-08-09 20:26:33.626] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:26:33.627] [info]  [AppConnectivityService] Reporting app connectivity
+[2024-08-09 20:26:33.824] [info]  [AnalyticsService] Sent a Grafana event to https://tracking.overwolf.com/tracking/InsertStats?Stats=true. Status code is 200
+[2024-08-09 20:26:34.085] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:26:38.846] [info]  [ReleaseNotesApiImpl] Fetching /1.257.1.19588/release-notes/1 ...
+[2024-08-09 20:26:39.809] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info
+[2024-08-09 20:26:39.811] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":1,"classId":1}
+[2024-08-09 20:26:39.812] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":1,"classesOnly":true}
+[2024-08-09 20:26:39.813] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-08-09 20:26:39.821] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:26:39.862] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:26:42.170] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: true
+[2024-08-09 20:26:42.170] [info]  [GamesServiceImpl] Scan games started. Comprehensive: true
+[2024-08-09 20:26:42.501] [info]  [GamesServiceImpl] Instance detected: Retail (517) - 9305bbac-db5f-48bd-96cf-2c906ec793c6 (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/)
+[2024-08-09 20:26:42.564] [info]  [GamesServiceImpl] Instance detected: Classic (67408) - 43323714-ecca-49e8-b7af-d72fb702c37b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/)
+[2024-08-09 20:26:42.613] [info]  [GamesServiceImpl] Instance detected: Cataclysm Classic (77522) - 51788315-c30c-4e9f-b005-235d2af4364b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/)
+[2024-08-09 20:26:45.933] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Cataclysm Classic (77522) - 51788315-c30c-4e9f-b005-235d2af4364b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/)
+[2024-08-09 20:26:45.935] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Classic (67408) - 43323714-ecca-49e8-b7af-d72fb702c37b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/)
+[2024-08-09 20:26:45.936] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Retail (517) - 9305bbac-db5f-48bd-96cf-2c906ec793c6 (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/)
+[2024-08-09 20:26:45.938] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: true. Canceled: false
+[2024-08-09 20:26:45.942] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Retail - 9305bbac-db5f-48bd-96cf-2c906ec793c6
+[2024-08-09 20:26:45.942] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Classic - 43323714-ecca-49e8-b7af-d72fb702c37b
+[2024-08-09 20:26:45.942] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Cataclysm Classic - 51788315-c30c-4e9f-b005-235d2af4364b
+[2024-08-09 20:26:45.943] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["ScanningChanged"]
+[2024-08-09 20:26:45.943] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["ScanningChanged"]
+[2024-08-09 20:26:45.943] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["ScanningChanged"]
+[2024-08-09 20:26:46.744] [info]  [ProjectInstanceChangedEventHandler] Project instance 988370 - Syndicator changed
+[2024-08-09 20:26:46.745] [info]  [ProjectInstalledEventHandler] Project 988370 - Syndicator installed to Retail instance
+[2024-08-09 20:26:46.746] [info]  [ProjectInstanceChangedEventHandler] Project instance 314994 - DBM - Dungeons, Delves, & Events (Requires Deadly Boss Mods) changed
+[2024-08-09 20:26:46.746] [info]  [ProjectInstalledEventHandler] Project 314994 - DBM - Dungeons, Delves, & Events (Requires Deadly Boss Mods) installed to Retail instance
+[2024-08-09 20:26:46.746] [info]  [ProjectInstanceChangedEventHandler] Project instance 26737 - GatherMate2_Data changed
+[2024-08-09 20:26:46.746] [info]  [ProjectInstanceChangedEventHandler] Project instance 1592 - Bagnon changed
+[2024-08-09 20:26:46.746] [info]  [ProjectInstalledEventHandler] Project 26737 - GatherMate2_Data installed to Retail instance
+[2024-08-09 20:26:46.746] [info]  [ProjectInstanceChangedEventHandler] Project instance 1017030 - Remix Gem Helper changed
+[2024-08-09 20:26:46.747] [info]  [ProjectInstalledEventHandler] Project 1592 - Bagnon installed to Retail instance
+[2024-08-09 20:26:46.747] [info]  [ProjectInstanceChangedEventHandler] Project instance 65387 - WeakAuras changed
+[2024-08-09 20:26:46.747] [info]  [ProjectInstalledEventHandler] Project 1017030 - Remix Gem Helper installed to Retail instance
+[2024-08-09 20:26:46.747] [info]  [ProjectInstanceChangedEventHandler] Project instance 298842 - Leatrix Maps (Dragonflight & The War Within) changed
+[2024-08-09 20:26:46.747] [info]  [ProjectInstanceChangedEventHandler] Project instance 4646 - Pawn changed
+[2024-08-09 20:26:46.747] [info]  [ProjectInstalledEventHandler] Project 65387 - WeakAuras installed to Retail instance
+[2024-08-09 20:26:46.747] [info]  [ProjectInstanceChangedEventHandler] Project instance 15564 - Clique changed
+[2024-08-09 20:26:46.747] [info]  [ProjectInstalledEventHandler] Project 298842 - Leatrix Maps (Dragonflight & The War Within) installed to Retail instance
+[2024-08-09 20:26:46.747] [info]  [ProjectInstanceChangedEventHandler] Project instance 26120 - GatherMate2 changed
+[2024-08-09 20:26:46.748] [info]  [ProjectInstanceChangedEventHandler] Project instance 6124 - Auctionator changed
+[2024-08-09 20:26:46.748] [info]  [ProjectInstalledEventHandler] Project 4646 - Pawn installed to Retail instance
+[2024-08-09 20:26:46.748] [info]  [ProjectInstanceChangedEventHandler] Project instance 1033024 - Remix Ensemble Tracker changed
+[2024-08-09 20:26:46.751] [info]  [ProjectInstalledEventHandler] Project 15564 - Clique installed to Retail instance
+[2024-08-09 20:26:46.751] [info]  [ProjectInstanceChangedEventHandler] Project instance 94855 - Leatrix Plus (Dragonflight & The War Within) changed
+[2024-08-09 20:26:46.751] [info]  [ProjectInstanceChangedEventHandler] Project instance 914482 - Baganator changed
+[2024-08-09 20:26:46.751] [info]  [ProjectInstalledEventHandler] Project 26120 - GatherMate2 installed to Retail instance
+[2024-08-09 20:26:46.752] [info]  [ProjectInstanceChangedEventHandler] Project instance 1028091 - Remix Loot Filter (No Experience Pickup) changed
+[2024-08-09 20:26:46.752] [info]  [ProjectInstanceChangedEventHandler] Project instance 1033458 - Remix Checklist changed
+[2024-08-09 20:26:46.752] [info]  [ProjectInstalledEventHandler] Project 6124 - Auctionator installed to Retail instance
+[2024-08-09 20:26:46.752] [info]  [ProjectInstalledEventHandler] Project 1033024 - Remix Ensemble Tracker installed to Retail instance
+[2024-08-09 20:26:46.752] [info]  [ProjectInstanceChangedEventHandler] Project instance 3358 - Deadly Boss Mods (DBM) changed
+[2024-08-09 20:26:46.752] [info]  [ProjectInstalledEventHandler] Project 94855 - Leatrix Plus (Dragonflight & The War Within) installed to Retail instance
+[2024-08-09 20:26:46.752] [info]  [ProjectInstanceChangedEventHandler] Project instance 3358 - Deadly Boss Mods (DBM) changed
+[2024-08-09 20:26:46.752] [info]  [ProjectInstalledEventHandler] Project 914482 - Baganator installed to Retail instance
+[2024-08-09 20:26:46.753] [info]  [ProjectInstalledEventHandler] Project 1028091 - Remix Loot Filter (No Experience Pickup) installed to Retail instance
+[2024-08-09 20:26:46.753] [info]  [ProjectInstalledEventHandler] Project 1033458 - Remix Checklist installed to Retail instance
+[2024-08-09 20:26:46.753] [info]  [ProjectInstalledEventHandler] Project 3358 - Deadly Boss Mods (DBM) installed to Retail instance
+[2024-08-09 20:26:46.855] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["Saved"]
+[2024-08-09 20:26:46.957] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["ScanningChanged"]
+[2024-08-09 20:26:46.957] [info]  [GamesServiceImpl] Scan complete for game 1 - Retail - 9305bbac-db5f-48bd-96cf-2c906ec793c6
+[2024-08-09 20:26:47.523] [info]  [ProjectInstanceChangedEventHandler] Project instance 15564 - Clique changed
+[2024-08-09 20:26:47.523] [info]  [ProjectInstanceChangedEventHandler] Project instance 1592 - Bagnon changed
+[2024-08-09 20:26:47.524] [info]  [ProjectInstalledEventHandler] Project 15564 - Clique installed to Classic instance
+[2024-08-09 20:26:47.524] [info]  [ProjectInstanceChangedEventHandler] Project instance 322362 - Leatrix Plus (Classic Era) changed
+[2024-08-09 20:26:47.524] [info]  [ProjectInstanceChangedEventHandler] Project instance 324034 - Leatrix Maps (Classic Era) changed
+[2024-08-09 20:26:47.524] [info]  [ProjectInstalledEventHandler] Project 1592 - Bagnon installed to Classic instance
+[2024-08-09 20:26:47.524] [info]  [ProjectInstalledEventHandler] Project 322362 - Leatrix Plus (Classic Era) installed to Classic instance
+[2024-08-09 20:26:47.524] [info]  [ProjectInstanceChangedEventHandler] Project instance 65387 - WeakAuras changed
+[2024-08-09 20:26:47.524] [info]  [ProjectInstanceChangedEventHandler] Project instance 6124 - Auctionator changed
+[2024-08-09 20:26:47.524] [info]  [ProjectInstalledEventHandler] Project 324034 - Leatrix Maps (Classic Era) installed to Classic instance
+[2024-08-09 20:26:47.524] [info]  [ProjectInstanceChangedEventHandler] Project instance 324944 - What's Training? changed
+[2024-08-09 20:26:47.525] [info]  [ProjectInstalledEventHandler] Project 65387 - WeakAuras installed to Classic instance
+[2024-08-09 20:26:47.525] [info]  [ProjectInstanceChangedEventHandler] Project instance 696065 - Nova Spell Rank Checker changed
+[2024-08-09 20:26:47.527] [info]  [ProjectInstalledEventHandler] Project 6124 - Auctionator installed to Classic instance
+[2024-08-09 20:26:47.527] [info]  [ProjectInstanceChangedEventHandler] Project instance 4646 - Pawn changed
+[2024-08-09 20:26:47.527] [info]  [ProjectInstanceChangedEventHandler] Project instance 334517 - Quest Icon Desaturation changed
+[2024-08-09 20:26:47.527] [info]  [ProjectInstalledEventHandler] Project 324944 - What's Training? installed to Classic instance
+[2024-08-09 20:26:47.527] [info]  [ProjectInstalledEventHandler] Project 696065 - Nova Spell Rank Checker installed to Classic instance
+[2024-08-09 20:26:47.527] [info]  [ProjectInstalledEventHandler] Project 4646 - Pawn installed to Classic instance
+[2024-08-09 20:26:47.528] [info]  [ProjectInstalledEventHandler] Project 334517 - Quest Icon Desaturation installed to Classic instance
+[2024-08-09 20:26:47.611] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["Saved"]
+[2024-08-09 20:26:47.673] [info]  [GamesServiceImpl] Scan complete for game 1 - Classic - 43323714-ecca-49e8-b7af-d72fb702c37b
+[2024-08-09 20:26:47.674] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["ScanningChanged"]
+[2024-08-09 20:26:47.977] [info]  [ProjectInstanceChangedEventHandler] Project instance 1592 - Bagnon changed
+[2024-08-09 20:26:47.977] [info]  [ProjectInstalledEventHandler] Project 1592 - Bagnon installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.977] [info]  [ProjectInstanceChangedEventHandler] Project instance 65387 - WeakAuras changed
+[2024-08-09 20:26:47.978] [info]  [ProjectInstalledEventHandler] Project 65387 - WeakAuras installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.978] [info]  [ProjectInstanceChangedEventHandler] Project instance 463868 - Leatrix Maps (Cataclysm Classic) changed
+[2024-08-09 20:26:47.978] [info]  [ProjectInstalledEventHandler] Project 463868 - Leatrix Maps (Cataclysm Classic) installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.978] [info]  [ProjectInstanceChangedEventHandler] Project instance 4646 - Pawn changed
+[2024-08-09 20:26:47.978] [info]  [ProjectInstalledEventHandler] Project 4646 - Pawn installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.978] [info]  [ProjectInstanceChangedEventHandler] Project instance 15564 - Clique changed
+[2024-08-09 20:26:47.978] [info]  [ProjectInstalledEventHandler] Project 15564 - Clique installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.978] [info]  [ProjectInstalledEventHandler] Project 6650 - Dominos installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.980] [info]  [ProjectInstanceChangedEventHandler] Project instance 6650 - Dominos changed
+[2024-08-09 20:26:47.980] [info]  [ProjectInstalledEventHandler] Project 100547 - Plater Nameplates installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.981] [info]  [ProjectInstanceChangedEventHandler] Project instance 100547 - Plater Nameplates changed
+[2024-08-09 20:26:47.981] [info]  [ProjectInstanceChangedEventHandler] Project instance 6124 - Auctionator changed
+[2024-08-09 20:26:47.981] [info]  [ProjectInstalledEventHandler] Project 6124 - Auctionator installed to Cataclysm Classic instance
+[2024-08-09 20:26:47.981] [info]  [ProjectInstanceChangedEventHandler] Project instance 463863 - Leatrix Plus (Cataclysm Classic) changed
+[2024-08-09 20:26:47.981] [info]  [ProjectInstalledEventHandler] Project 463863 - Leatrix Plus (Cataclysm Classic) installed to Cataclysm Classic instance
+[2024-08-09 20:26:48.069] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["Saved"]
+[2024-08-09 20:26:48.158] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["ScanningChanged"]
+[2024-08-09 20:26:48.158] [info]  [GamesServiceImpl] Scan complete for game 1 - Cataclysm Classic - 51788315-c30c-4e9f-b005-235d2af4364b
+[2024-08-09 20:26:48.159] [info]  [InstalledAddonsServiceImpl] updateAllAddons: 9305bbac-db5f-48bd-96cf-2c906ec793c6 ...
+[2024-08-09 20:26:48.200] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":0,"status":1}
+[2024-08-09 20:26:48.201] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":0,"status":2}
+[2024-08-09 20:26:48.290] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":0,"status":4}
+[2024-08-09 20:26:48.623] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":3,"status":4}
+[2024-08-09 20:26:48.650] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":6,"status":4}
+[2024-08-09 20:26:48.651] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":0,"status":4}
+[2024-08-09 20:26:48.651] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":6,"status":4}
+[2024-08-09 20:26:48.704] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":29,"status":4}
+[2024-08-09 20:26:48.709] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":33,"status":4}
+[2024-08-09 20:26:48.716] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":6,"status":4}
+[2024-08-09 20:26:48.716] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":33,"status":4}
+[2024-08-09 20:26:48.776] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":33,"status":6}
+[2024-08-09 20:26:48.784] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":35,"status":7}
+[2024-08-09 20:26:48.784] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":39,"status":7}
+[2024-08-09 20:26:48.784] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":42,"status":7}
+[2024-08-09 20:26:48.785] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":45,"status":7}
+[2024-08-09 20:26:48.785] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":49,"status":7}
+[2024-08-09 20:26:48.786] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":52,"status":7}
+[2024-08-09 20:26:48.786] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":55,"status":7}
+[2024-08-09 20:26:48.786] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":58,"status":7}
+[2024-08-09 20:26:48.786] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":61,"status":7}
+[2024-08-09 20:26:48.787] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":65,"status":7}
+[2024-08-09 20:26:48.787] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":68,"status":7}
+[2024-08-09 20:26:48.787] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":71,"status":7}
+[2024-08-09 20:26:48.788] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":74,"status":7}
+[2024-08-09 20:26:48.788] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":77,"status":7}
+[2024-08-09 20:26:48.789] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":81,"status":7}
+[2024-08-09 20:26:48.789] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":84,"status":7}
+[2024-08-09 20:26:48.789] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":87,"status":7}
+[2024-08-09 20:26:48.790] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":91,"status":7}
+[2024-08-09 20:26:48.790] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":93,"status":7}
+[2024-08-09 20:26:48.791] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":97,"status":7}
+[2024-08-09 20:26:48.791] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":100,"status":7}
+[2024-08-09 20:26:48.792] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":33,"status":6}
+[2024-08-09 20:26:48.793] [info]  [ProjectInstanceChangedEventHandler] Project instance 914482 - Baganator changed
+[2024-08-09 20:26:48.795] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":100,"status":7}
+[2024-08-09 20:26:48.800] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":100,"status":10}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":0,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":1,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":2,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":3,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":4,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":5,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":6,"status":15}
+[2024-08-09 20:26:48.801] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":7,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":8,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":9,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":10,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":11,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":12,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":13,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":14,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":15,"status":15}
+[2024-08-09 20:26:48.802] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":16,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":17,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":18,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":19,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":20,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":21,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":22,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":23,"status":15}
+[2024-08-09 20:26:48.803] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":24,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":25,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":26,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":27,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":28,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":29,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":30,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":31,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":32,"status":15}
+[2024-08-09 20:26:48.804] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":33,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":34,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":35,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":36,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":37,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":38,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":39,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":40,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":41,"status":15}
+[2024-08-09 20:26:48.805] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":42,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":43,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":44,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":45,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":46,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":47,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":48,"status":15}
+[2024-08-09 20:26:48.806] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":49,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":50,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":51,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":35,"status":7}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":52,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":53,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":54,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":55,"status":15}
+[2024-08-09 20:26:48.807] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":56,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":57,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":58,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":59,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":60,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":61,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":62,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":63,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":64,"status":15}
+[2024-08-09 20:26:48.808] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":65,"status":15}
+[2024-08-09 20:26:48.809] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":66,"status":15}
+[2024-08-09 20:26:48.809] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":67,"status":15}
+[2024-08-09 20:26:48.809] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":68,"status":15}
+[2024-08-09 20:26:48.809] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":69,"status":15}
+[2024-08-09 20:26:48.809] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":70,"status":15}
+[2024-08-09 20:26:48.809] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":71,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":72,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":73,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":74,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":75,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":76,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":77,"status":15}
+[2024-08-09 20:26:48.810] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":78,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":79,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":80,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":81,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":82,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":83,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":84,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":85,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":86,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":87,"status":15}
+[2024-08-09 20:26:48.811] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":88,"status":15}
+[2024-08-09 20:26:48.812] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":89,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":90,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":91,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":92,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":93,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":94,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":95,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":96,"status":15}
+[2024-08-09 20:26:48.813] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":97,"status":15}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":98,"status":15}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":99,"status":15}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":100,"status":15}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":39,"status":7}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":100,"status":9}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":42,"status":7}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":45,"status":7}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":48,"status":7}
+[2024-08-09 20:26:48.814] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":51,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":55,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":100,"status":9}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":1,"status":9}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":58,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":61,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":64,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":67,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":71,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":74,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":77,"status":7}
+[2024-08-09 20:26:48.815] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":80,"status":7}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":83,"status":7}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":87,"status":7}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":90,"status":7}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":93,"status":7}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":96,"status":7}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":100,"status":7}
+[2024-08-09 20:26:48.816] [info]  [ProjectInstanceChangedEventHandler] Project instance 1592 - Bagnon changed
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":100,"status":10}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":1,"status":15}
+[2024-08-09 20:26:48.816] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":2,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":3,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":4,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":5,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":6,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":7,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":8,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":9,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":10,"status":15}
+[2024-08-09 20:26:48.817] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":11,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":12,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":13,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":14,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":15,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":17,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":18,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":19,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":20,"status":15}
+[2024-08-09 20:26:48.818] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":21,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":22,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":23,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":24,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":25,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":26,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":27,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":28,"status":15}
+[2024-08-09 20:26:48.819] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":29,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":30,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":31,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":32,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":34,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":35,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":36,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":37,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":38,"status":15}
+[2024-08-09 20:26:48.820] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":39,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":40,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":41,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":42,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":43,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":44,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":45,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":46,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":47,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":48,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":50,"status":15}
+[2024-08-09 20:26:48.821] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":51,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":52,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":53,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":54,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":55,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":56,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":57,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":58,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":59,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":60,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":61,"status":15}
+[2024-08-09 20:26:48.822] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":62,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":63,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":64,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":65,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":67,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":68,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":69,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":70,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":71,"status":15}
+[2024-08-09 20:26:48.823] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":72,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":73,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":74,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":75,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":76,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":77,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":78,"status":15}
+[2024-08-09 20:26:48.824] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":79,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":80,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":81,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":82,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":84,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":85,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":86,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":87,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":88,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":89,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":90,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":91,"status":15}
+[2024-08-09 20:26:48.825] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":92,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":93,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":94,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":95,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":96,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":97,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":98,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":100,"status":15}
+[2024-08-09 20:26:48.826] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":100,"status":9}
+[2024-08-09 20:26:48.853] [info]  [InstalledAddonsProgressLogger] {"addonId":1592,"progress":1,"status":9}
+[2024-08-09 20:26:48.897] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["Saved"]
+[2024-08-09 20:26:48.938] [info]  [InstalledAddonsProgressLogger] {"addonId":914482,"progress":0,"status":12}
+[2024-08-09 20:26:48.985] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["Saved"]
+[2024-08-09 20:26:49.822] [info]  [AnalyticsService] trackDailyUnique is unique: true
+[2024-08-09 20:26:53.925] [info]  [SessionsService] session ended
+[2024-08-09 20:26:53.926] [info]  [BackgroundController] Request to shutdown from tray ...
+[2024-08-09 20:26:53.926] [info]  [BackgroundController] Shutting down...
+[2024-08-09 20:26:53.926] [info]  [CoreServiceImpl] Performing shutdown cleanup actions
+[2024-08-09 20:26:53.926] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions
+[2024-08-09 20:26:53.926] [info]  [CoreServiceImpl] Shutdown cleanup actions complete
+[2024-08-09 20:26:54.144] [info]  [BackgroundController] Destroying desktop window...
+[2024-08-09 20:26:54.144] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service
+[2024-08-09 20:26:54.144] [info]  [BackgroundController] Shutdown complete. Exiting app...
+[2024-08-09 20:28:05.946] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com
+[2024-08-09 20:28:05.950] [info]  [ConfigurationServiceImpl] Current env: release
+[2024-08-09 20:28:05.959] [info]  [BackgroundController] App version: 1.257.1.19588
+[2024-08-09 20:28:05.959] [info]  [BackgroundController] OS: linux
+[2024-08-09 20:28:05.960] [info]  [BackgroundController] OS version: 6.6.44_1
+[2024-08-09 20:28:05.960] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseFdzeRll/curseforge
+[2024-08-09 20:28:06.118] [info]  [BackgroundController] Electron App Ready. Continuing Initialization...
+[2024-08-09 20:28:06.247] [info]  [DisplayModeEventHandler] Display mode changed - isSmallResolution: false
+[2024-08-09 20:28:06.630] [info]  [SessionStartedEventHandler] App session started
+[2024-08-09 20:28:06.633] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service
+[2024-08-09 20:28:06.633] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:28:06.647] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:28:06.708] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:28:06.799] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration
+[2024-08-09 20:28:06.799] [error] [LoginService] Failed to refresh tokens. Error: Missing refresh token!
+[2024-08-09 20:28:06.799] [error] [LoginService] Checking login status failed. User info is unavailable.
+[2024-08-09 20:28:06.800] [info]  [MinecraftUsersChangedEventHandler] Minecraft Users info loaded
+[2024-08-09 20:28:06.800] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ...
+[2024-08-09 20:28:06.801] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-08-09 20:28:06.801] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.257.1-19588
+[2024-08-09 20:28:06.801] [info]  Checking for update
+[2024-08-09 20:28:06.801] [info]  Electron Updater - Checking for application update
+[2024-08-09 20:28:06.909] [info]  Update for version 1.257.1-19588 is not available (latest version: 1.257.1-19588, downgrade is disallowed).
+[2024-08-09 20:28:06.910] [info]  Electron Updater - App update is not available. Latest Version: 1.257.1-19588. Release Date: 2024-07-31T07:20:19.240Z
+[2024-08-09 20:28:06.910] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-08-09 20:28:06.910] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-08-09 20:28:06.934] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-09 20:28:06.981] [info]  [PluginProcessHost] Starting Mods Agent with ports range 55123-55143
+[2024-08-09 20:28:06.982] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseFdzeRll/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=55123,--to-port=55143,--pid=3816,--appDataPath=/home/colby/.config/CurseForge,--clientId=Overwolf
+[2024-08-09 20:28:06.987] [info]  [PluginProcessHost] Mods Agent started. pid: 3978
+[2024-08-09 20:28:07.488] [info]  [PluginProcessHost] Mods Agent process started
+[2024-08-09 20:28:07.488] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 55123-55143
+[2024-08-09 20:28:07.490] [error] [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:55123
+[2024-08-09 20:28:07.500] [error] [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-08-09 20:28:08.541] [info]  [PluginWebSocket] Connected to mods agent
+[2024-08-09 20:28:08.541] [info]  [PluginWebSocket] Connected to Mods Agent on port 55123
+[2024-08-09 20:28:09.367] [info]  [GamesServiceImpl] Instance detected: Cataclysm Classic (77522) - 51788315-c30c-4e9f-b005-235d2af4364b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/)
+[2024-08-09 20:28:09.408] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Cataclysm Classic (77522) - 51788315-c30c-4e9f-b005-235d2af4364b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/)
+[2024-08-09 20:28:09.409] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Retail (517) - 9305bbac-db5f-48bd-96cf-2c906ec793c6 (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/)
+[2024-08-09 20:28:09.409] [info]  [GamesServiceImpl] Instance detected: Retail (517) - 9305bbac-db5f-48bd-96cf-2c906ec793c6 (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/)
+[2024-08-09 20:28:09.409] [info]  [GamesServiceImpl] Instance detected: Classic (67408) - 43323714-ecca-49e8-b7af-d72fb702c37b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/)
+[2024-08-09 20:28:09.409] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Classic (67408) - 43323714-ecca-49e8-b7af-d72fb702c37b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/)
+[2024-08-09 20:28:09.529] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false
+[2024-08-09 20:28:09.536] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false
+[2024-08-09 20:28:09.544] [info]  [CoreServiceImpl] Mods agent was initialized successfully
+[2024-08-09 20:28:09.588] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:28:09.664] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Classic - 43323714-ecca-49e8-b7af-d72fb702c37b
+[2024-08-09 20:28:09.665] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["ScanningChanged"]
+[2024-08-09 20:28:09.732] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["ScanningChanged"]
+[2024-08-09 20:28:09.734] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Cataclysm Classic - 51788315-c30c-4e9f-b005-235d2af4364b
+[2024-08-09 20:28:09.734] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["ScanningChanged"]
+[2024-08-09 20:28:09.734] [info]  [GamesServiceImpl] Scan complete for game 1 - Classic - 43323714-ecca-49e8-b7af-d72fb702c37b
+[2024-08-09 20:28:09.796] [info]  [GamesServiceImpl] Scan complete for game 1 - Cataclysm Classic - 51788315-c30c-4e9f-b005-235d2af4364b
+[2024-08-09 20:28:09.796] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["ScanningChanged"]
+[2024-08-09 20:28:09.797] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Retail - 9305bbac-db5f-48bd-96cf-2c906ec793c6
+[2024-08-09 20:28:09.797] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["ScanningChanged"]
+[2024-08-09 20:28:09.914] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["ScanningChanged"]
+[2024-08-09 20:28:09.915] [info]  [GamesServiceImpl] Scan complete for game 1 - Retail - 9305bbac-db5f-48bd-96cf-2c906ec793c6
+[2024-08-09 20:28:10.052] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:28:10.091] [info]  [ReleaseNotesApiImpl] Fetching /1.257.1.19588/release-notes/1 ...
+[2024-08-09 20:28:10.095] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info
+[2024-08-09 20:28:10.109] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":1,"classesOnly":true}
+[2024-08-09 20:28:10.111] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-08-09 20:28:10.155] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:28:10.292] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-09 20:28:18.769] [info]  [SessionsService] session ended
+[2024-08-09 20:28:18.769] [info]  [BackgroundController] Request to shutdown from tray ...
+[2024-08-09 20:28:18.769] [info]  [BackgroundController] Shutting down...
+[2024-08-09 20:28:18.770] [info]  [CoreServiceImpl] Performing shutdown cleanup actions
+[2024-08-09 20:28:18.770] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions
+[2024-08-09 20:28:18.788] [info]  [ProjectUninstalledEventHandler] Project 1592 - Bagnon uninstalled
+[2024-08-09 20:28:18.913] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["Saved"]
+[2024-08-09 20:28:18.914] [info]  [CoreServiceImpl] Shutdown cleanup actions complete
+[2024-08-09 20:28:19.061] [info]  [BackgroundController] Destroying desktop window...
+[2024-08-09 20:28:19.062] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service
+[2024-08-09 20:28:19.062] [info]  [BackgroundController] Shutdown complete. Exiting app...
+[2024-08-10 07:30:56.908] [info]  [EleriumCommunicationLayer] setCfCoreHost called with https://api.curseforge.com
+[2024-08-10 07:30:56.912] [info]  [ConfigurationServiceImpl] Current env: release
+[2024-08-10 07:30:56.919] [info]  [BackgroundController] App version: 1.257.1.19588
+[2024-08-10 07:30:56.919] [info]  [BackgroundController] OS: linux
+[2024-08-10 07:30:56.919] [info]  [BackgroundController] OS version: 6.10.3_2
+[2024-08-10 07:30:56.919] [info]  [BackgroundController] App startup args: /tmp/.mount_CurseF0FG86R/curseforge
+[2024-08-10 07:30:57.079] [info]  [BackgroundController] Electron App Ready. Continuing Initialization...
+[2024-08-10 07:30:57.212] [info]  [DisplayModeEventHandler] Display mode changed - isSmallResolution: false
+[2024-08-10 07:30:57.600] [info]  [SessionStartedEventHandler] App session started
+[2024-08-10 07:30:57.602] [info]  [AutoUpdaterServiceImpl] Starting Auto Updater Service
+[2024-08-10 07:30:57.602] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-10 07:30:57.614] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-10 07:30:57.661] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-10 07:30:57.766] [info]  [AutoUpdaterServiceImpl] Auto updater is disabled by configuration
+[2024-08-10 07:30:57.766] [error] [LoginService] Failed to refresh tokens. Error: Missing refresh token!
+[2024-08-10 07:30:57.766] [error] [LoginService] Checking login status failed. User info is unavailable.
+[2024-08-10 07:30:57.766] [info]  [MinecraftUsersChangedEventHandler] Minecraft Users info loaded
+[2024-08-10 07:30:57.767] [info]  [MarketingVideosServiceImpl] Fetching https://mrkt.forgecdn.net/app-vids/onboarding_videos.json ...
+[2024-08-10 07:30:57.767] [info]  [AppUpdatePeriodicChecker] Running periodic app update check
+[2024-08-10 07:30:57.768] [info]  [AppUpdateServiceImpl] Checking for available application updates. Current app version is 1.257.1-19588
+[2024-08-10 07:30:57.768] [info]  Checking for update
+[2024-08-10 07:30:57.768] [info]  Electron Updater - Checking for application update
+[2024-08-10 07:30:57.871] [info]  Update for version 1.257.1-19588 is not available (latest version: 1.257.1-19588, downgrade is disallowed).
+[2024-08-10 07:30:57.872] [info]  Electron Updater - App update is not available. Latest Version: 1.257.1-19588. Release Date: 2024-07-31T07:20:19.240Z
+[2024-08-10 07:30:57.872] [info]  [AppUpdateServiceImpl] No updates are available for the app.
+[2024-08-10 07:30:57.872] [info]  [AppUpdatePeriodicChecker] No app update. Scheduling the next update check in 900000 milliseconds
+[2024-08-10 07:30:57.935] [info]  [ClientOverridesImpl] Fetching https://curseforge.overwolf.com/downloads/client-overrides-v2.json ...
+[2024-08-10 07:30:57.988] [info]  [PluginProcessHost] Starting Mods Agent with ports range 62524-62544
+[2024-08-10 07:30:57.989] [info]  [PluginProcessHost] Launching Mods Agent process /tmp/.mount_CurseF0FG86R/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host with args: --port=62524,--to-port=62544,--pid=2170,--appDataPath=/home/colby/.config/CurseForge,--clientId=Overwolf
+[2024-08-10 07:30:57.994] [info]  [PluginProcessHost] Mods Agent started. pid: 2331
+[2024-08-10 07:30:58.495] [info]  [PluginProcessHost] Mods Agent process started
+[2024-08-10 07:30:58.495] [info]  [PluginWebSocket] Connecting to Mods Agent CurseForge on ports range 62524-62544
+[2024-08-10 07:30:58.497] [error] [PluginWebSocket] Websocket connection error: Error: connect ECONNREFUSED 127.0.0.1:62524
+[2024-08-10 07:30:58.507] [error] [PluginWebSocket] An error occurred while connecting to the agent plugin.
+[2024-08-10 07:30:59.556] [info]  [PluginWebSocket] Connected to mods agent
+[2024-08-10 07:30:59.556] [info]  [PluginWebSocket] Connected to Mods Agent on port 62524
+[2024-08-10 07:31:00.328] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Cataclysm Classic (77522) - 51788315-c30c-4e9f-b005-235d2af4364b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/)
+[2024-08-10 07:31:00.368] [info]  [GamesServiceImpl] Instance detected: Cataclysm Classic (77522) - 51788315-c30c-4e9f-b005-235d2af4364b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/)
+[2024-08-10 07:31:00.369] [info]  [GamesServiceImpl] Instance detected: Classic (67408) - 43323714-ecca-49e8-b7af-d72fb702c37b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/)
+[2024-08-10 07:31:00.369] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Classic (67408) - 43323714-ecca-49e8-b7af-d72fb702c37b (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/)
+[2024-08-10 07:31:00.369] [info]  [GamesServiceImpl] Instance detected: Retail (517) - 9305bbac-db5f-48bd-96cf-2c906ec793c6 (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/)
+[2024-08-10 07:31:00.369] [info]  [AnalyzingGameInstanceEventHandler] Analyzing Instance: Retail (517) - 9305bbac-db5f-48bd-96cf-2c906ec793c6 (/home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/)
+[2024-08-10 07:31:00.464] [info]  [GamesScanStartedEventHandler] Games scan started. Comprehensive: false
+[2024-08-10 07:31:00.470] [info]  [GamesScanCompletedEventHandler] Games scan completed. Comprehensive: false. Canceled: false
+[2024-08-10 07:31:00.477] [info]  [CoreServiceImpl] Mods agent was initialized successfully
+[2024-08-10 07:31:00.521] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-10 07:31:00.941] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Retail - 9305bbac-db5f-48bd-96cf-2c906ec793c6
+[2024-08-10 07:31:00.942] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["ScanningChanged"]
+[2024-08-10 07:31:00.978] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-10 07:31:01.017] [info]  [ReleaseNotesApiImpl] Fetching /1.257.1.19588/release-notes/1 ...
+[2024-08-10 07:31:01.020] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["ScanningChanged"]
+[2024-08-10 07:31:01.020] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["ScanningChanged"]
+[2024-08-10 07:31:01.021] [info]  [GamesServiceImpl] Scan complete for game 1 - Retail - 9305bbac-db5f-48bd-96cf-2c906ec793c6
+[2024-08-10 07:31:01.021] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Cataclysm Classic - 51788315-c30c-4e9f-b005-235d2af4364b
+[2024-08-10 07:31:01.022] [info]  [MinecraftLoginAppServiceImpl] Get Microsoft Users Info
+[2024-08-10 07:31:01.036] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":1,"classesOnly":true}
+[2024-08-10 07:31:01.037] [info]  [MeasurementServiceImpl] starting measurement game-dau
+[2024-08-10 07:31:01.044] [info]  [EleriumCommunicationLayer] Request - GET /categories - params: {"gameId":1,"classId":1}
+[2024-08-10 07:31:01.075] [info]  [GamesServiceImpl] Game instance changed: 51788315-c30c-4e9f-b005-235d2af4364b - ["ScanningChanged"]
+[2024-08-10 07:31:01.075] [info]  [GamesServiceImpl] Scan complete for game 1 - Cataclysm Classic - 51788315-c30c-4e9f-b005-235d2af4364b
+[2024-08-10 07:31:01.075] [info]  [GameInstanceScanStartedEventHandler] Scan started for game 1 - Classic - 43323714-ecca-49e8-b7af-d72fb702c37b
+[2024-08-10 07:31:01.076] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["ScanningChanged"]
+[2024-08-10 07:31:01.080] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-10 07:31:01.130] [info]  [GamesServiceImpl] Game instance changed: 43323714-ecca-49e8-b7af-d72fb702c37b - ["ScanningChanged"]
+[2024-08-10 07:31:01.130] [info]  [GamesServiceImpl] Scan complete for game 1 - Classic - 43323714-ecca-49e8-b7af-d72fb702c37b
+[2024-08-10 07:31:01.195] [info]  [MinecraftInstallationServiceImpl] Minecraft install state: false
+[2024-08-10 07:31:04.025] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":0,"status":1}
+[2024-08-10 07:31:04.026] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":0,"status":2}
+[2024-08-10 07:31:04.128] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":0,"status":4}
+[2024-08-10 07:31:04.630] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":3,"status":4}
+[2024-08-10 07:31:04.669] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":6,"status":4}
+[2024-08-10 07:31:04.669] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":3,"status":4}
+[2024-08-10 07:31:04.669] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":6,"status":4}
+[2024-08-10 07:31:04.689] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":9,"status":4}
+[2024-08-10 07:31:04.730] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":13,"status":4}
+[2024-08-10 07:31:04.730] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":9,"status":4}
+[2024-08-10 07:31:04.730] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":13,"status":4}
+[2024-08-10 07:31:04.730] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":16,"status":4}
+[2024-08-10 07:31:04.734] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":19,"status":4}
+[2024-08-10 07:31:04.775] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":16,"status":4}
+[2024-08-10 07:31:04.775] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":19,"status":4}
+[2024-08-10 07:31:04.775] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":23,"status":4}
+[2024-08-10 07:31:04.776] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":26,"status":4}
+[2024-08-10 07:31:04.776] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":29,"status":4}
+[2024-08-10 07:31:04.776] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":26,"status":4}
+[2024-08-10 07:31:04.776] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":29,"status":4}
+[2024-08-10 07:31:04.776] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":33,"status":4}
+[2024-08-10 07:31:05.193] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":33,"status":6}
+[2024-08-10 07:31:05.218] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":35,"status":7}
+[2024-08-10 07:31:05.220] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":39,"status":7}
+[2024-08-10 07:31:05.260] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":42,"status":7}
+[2024-08-10 07:31:05.260] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":45,"status":7}
+[2024-08-10 07:31:05.260] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":49,"status":7}
+[2024-08-10 07:31:05.260] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":52,"status":7}
+[2024-08-10 07:31:05.260] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":55,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":59,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":62,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":65,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":69,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":72,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":75,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":79,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":82,"status":7}
+[2024-08-10 07:31:05.261] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":85,"status":7}
+[2024-08-10 07:31:05.262] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":89,"status":7}
+[2024-08-10 07:31:05.262] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":91,"status":7}
+[2024-08-10 07:31:05.262] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":95,"status":7}
+[2024-08-10 07:31:05.262] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":98,"status":7}
+[2024-08-10 07:31:05.262] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":100,"status":7}
+[2024-08-10 07:31:05.266] [info]  [ProjectInstanceChangedEventHandler] Project instance 3358 - Deadly Boss Mods (DBM) changed
+[2024-08-10 07:31:05.266] [info]  [ProjectInstanceChangedEventHandler] Project instance 3358 - Deadly Boss Mods (DBM) changed
+[2024-08-10 07:31:05.272] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":100,"status":10}
+[2024-08-10 07:31:05.272] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":1,"status":15}
+[2024-08-10 07:31:05.272] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":2,"status":15}
+[2024-08-10 07:31:05.273] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":3,"status":15}
+[2024-08-10 07:31:05.273] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":4,"status":15}
+[2024-08-10 07:31:05.273] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":5,"status":15}
+[2024-08-10 07:31:05.273] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":6,"status":15}
+[2024-08-10 07:31:05.273] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":7,"status":15}
+[2024-08-10 07:31:05.273] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":8,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":9,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":10,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":11,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":12,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":13,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":14,"status":15}
+[2024-08-10 07:31:05.274] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":15,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":16,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":17,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":18,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":19,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":20,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":21,"status":15}
+[2024-08-10 07:31:05.275] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":22,"status":15}
+[2024-08-10 07:31:05.276] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":23,"status":15}
+[2024-08-10 07:31:05.276] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":24,"status":15}
+[2024-08-10 07:31:05.276] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":25,"status":15}
+[2024-08-10 07:31:05.276] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":26,"status":15}
+[2024-08-10 07:31:05.276] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":27,"status":15}
+[2024-08-10 07:31:05.276] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":29,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":30,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":31,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":32,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":33,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":34,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":35,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":36,"status":15}
+[2024-08-10 07:31:05.277] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":37,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":38,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":39,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":40,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":41,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":42,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":43,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":44,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":45,"status":15}
+[2024-08-10 07:31:05.278] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":46,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":47,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":48,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":49,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":50,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":51,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":52,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":53,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":54,"status":15}
+[2024-08-10 07:31:05.279] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":55,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":56,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":58,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":59,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":60,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":61,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":62,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":63,"status":15}
+[2024-08-10 07:31:05.280] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":64,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":65,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":66,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":67,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":68,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":69,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":70,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":71,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":72,"status":15}
+[2024-08-10 07:31:05.281] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":73,"status":15}
+[2024-08-10 07:31:05.282] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":74,"status":15}
+[2024-08-10 07:31:05.282] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":75,"status":15}
+[2024-08-10 07:31:05.282] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":76,"status":15}
+[2024-08-10 07:31:05.282] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":77,"status":15}
+[2024-08-10 07:31:05.282] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":78,"status":15}
+[2024-08-10 07:31:05.282] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":79,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":80,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":81,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":82,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":83,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":84,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":86,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":87,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":88,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":89,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":90,"status":15}
+[2024-08-10 07:31:05.283] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":91,"status":15}
+[2024-08-10 07:31:05.284] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":92,"status":15}
+[2024-08-10 07:31:05.284] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":93,"status":15}
+[2024-08-10 07:31:05.284] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":94,"status":15}
+[2024-08-10 07:31:05.284] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":95,"status":15}
+[2024-08-10 07:31:05.285] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":96,"status":15}
+[2024-08-10 07:31:05.317] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":97,"status":15}
+[2024-08-10 07:31:05.317] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":98,"status":15}
+[2024-08-10 07:31:05.318] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":99,"status":15}
+[2024-08-10 07:31:05.318] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":100,"status":15}
+[2024-08-10 07:31:05.318] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":100,"status":9}
+[2024-08-10 07:31:05.318] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":1,"status":9}
+[2024-08-10 07:31:05.417] [info]  [GamesServiceImpl] Game instance changed: 9305bbac-db5f-48bd-96cf-2c906ec793c6 - ["Saved"]
+[2024-08-10 07:31:05.460] [info]  [InstalledAddonsProgressLogger] {"addonId":3358,"progress":0,"status":12}
+[2024-08-10 07:31:11.005] [info]  [SessionsService] session ended
+[2024-08-10 07:31:11.005] [info]  [BackgroundController] Request to shutdown from tray ...
+[2024-08-10 07:31:11.005] [info]  [BackgroundController] Shutting down...
+[2024-08-10 07:31:11.005] [info]  [CoreServiceImpl] Performing shutdown cleanup actions
+[2024-08-10 07:31:11.006] [info]  [InstalledAddonsServiceImpl] Cleanup - committing deletion transactions
+[2024-08-10 07:31:11.006] [info]  [CoreServiceImpl] Shutdown cleanup actions complete
+[2024-08-10 07:31:11.041] [info]  [AnalyticsService] trackDailyUnique is unique: true
+[2024-08-10 07:31:11.143] [info]  [BackgroundController] Destroying desktop window...
+[2024-08-10 07:31:11.143] [info]  [AutoUpdaterServiceImpl] Stopping Auto Updater Service
+[2024-08-10 07:31:11.143] [info]  [BackgroundController] Shutdown complete. Exiting app...

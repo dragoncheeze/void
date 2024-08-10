@@ -1,0 +1,975 @@
+{
+  "Name": "CurseClient",
+  "Process": "Curse.Agent.Host",
+  "PID": 2331,
+  "Arguments": [
+    "/tmp/.mount_CurseF0FG86R/resources/app.asar.unpacked/plugins/curse/linux/Curse.Agent.Host",
+    "--port=62524",
+    "--to-port=62544",
+    "--pid=2170",
+    "--appDataPath=/home/colby/.config/CurseForge",
+    "--clientId=Overwolf"
+  ],
+  "ProcessStart": "2024-08-10T12:30:57.9851322Z",
+  "Version": "1.257.1.19588",
+  "BuildDate": "2000-01-02T16:52:56Z",
+  "Start": "2024-08-10T07:30:58.4031294-05:00",
+  "Log": [
+{
+  "timestamp": "2024-08-10T07:30:58.3964706-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Failed to modified BuiltInConverters: Cannot set initonly static field 'BuiltInConverters' after type 'Newtonsoft.Json.Serialization.DefaultContractResolver' is initialized."
+},
+{
+  "timestamp": "2024-08-10T07:30:58.4001861-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Startup Name: CurseForge, Version: 1.257.1.19588"
+},
+{
+  "timestamp": "2024-08-10T07:30:58.4012412-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Running Mods Agent with args: --port=62524,--to-port=62544,--pid=2170,--appDataPath=/home/colby/.config/CurseForge,--clientId=Overwolf"
+},
+{
+  "timestamp": "2024-08-10T07:30:58.4028855-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "start monitor process: 2170"
+},
+{
+  "timestamp": "2024-08-10T07:30:58.88027-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Unable to load game instances from disk. No file was found at: /home/colby/.config/CurseForge/agent/GameInstances/ModpackGameInstances.json"
+},
+{
+  "timestamp": "2024-08-10T07:30:58.948277-05:00",
+  "level": "Info",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Mods Agent server started on port 62524"
+},
+{
+  "timestamp": "2024-08-10T07:30:59.5566708-05:00",
+  "level": "Info",
+  "thread": 10,
+  "memory": 0.0,
+  "message": "Web Socket session connected"
+},
+{
+  "timestamp": "2024-08-10T07:30:59.6914345-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Update simultaneous downloads '1' => '3'"
+},
+{
+  "timestamp": "2024-08-10T07:30:59.6929135-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "UpdateOverrideLauncher"
+},
+{
+  "timestamp": "2024-08-10T07:30:59.693673-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Initializing Curse Mods Agent"
+},
+{
+  "timestamp": "2024-08-10T07:30:59.6953452-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "update client Info ''..."
+},
+{
+  "timestamp": "2024-08-10T07:30:59.7546171-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Network connected and internet available"
+},
+{
+  "timestamp": "2024-08-10T07:30:59.7667606-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "AddonServiceClient - CfCore Url: https://api.curseforge.com"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.0908483-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Attempt #1 of 2 on GameDatabase -> GetRemoteItems"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.0914692-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Getting Games from server"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1376569-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Loaded 26 games from the server"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1377794-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Saving games to local cache at /home/colby/.config/CurseForge/agent/gamesCache.json"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1535152-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[GameRepository] Completed download of cache",
+  "data": {
+    "name": "Games",
+    "elapsedTime": "61.00"
+  }
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1687281-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing local databases..."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.169071-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing game instances."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1831946-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Radium.Addons.AddonGameInstance'"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1835341-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Found RegisterType on Type: 'Curse.Games.Minecraft.MinecraftGameInstance'"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.1839647-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Radium.Addons.AddonGameInstance"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2513273-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] LoadInstancesFromDisk loaded 3 instances"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2595579-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Cataclysm Classic\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2662291-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Cataclysm Classic"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2700743-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2702847-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2708137-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Classic\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.271066-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Classic"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.2711923-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Initializing game instance of type Curse.Games.Minecraft.MinecraftGameInstance"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.301841-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] LoadInstancesFromDisk loaded 0 instances"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3042518-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game World of Warcraft (Id: 1) was detected at /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3114237-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Cataclysm Classic\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3114842-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Cataclysm Classic"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3145807-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Checking for game instance Cataclysm Classic updates"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3171743-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.324589-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game World of Warcraft (Id: 1) was detected at /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.324851-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Classic\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_classic_era_/WowClassic.exe"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.324913-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Classic"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3254277-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Checking for game instance Classic updates"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3254524-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3255386-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Game World of Warcraft (Id: 1) was detected at /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3257747-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Extracting Game instance \"Retail\" Version from /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Wow.exe"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3258442-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Couldn't find any relevant game files for Retail"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.326113-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.3261204-05:00",
+  "level": "Info",
+  "thread": 6,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.440384-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Cataclysm Classic. Operation took 125 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4405306-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Initialized game Cataclysm Classic instance"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.449834-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Classic. Operation took 124 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4498372-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Initialized game Classic instance"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4596285-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 133 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4596305-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initialized game Retail instance"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4598776-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Game instances initialization completed. Operation took 290 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4601378-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing Modpack instances."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4614885-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Running startup game detection"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4633527-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Performing quick game detection for 26 games..."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4691349-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Completed startup game detection. We have a total of 3 detected game instances. Operation took 7 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4702105-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.470671-05:00",
+  "level": "Warn",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4708633-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Beginning initialization of InstanceManager"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4712052-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "InstanceManager initialized."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.471868-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing tasks"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4719217-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Refreshing Minecraft instances list"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.472327-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "Initializing Periodic Tasks"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4811005-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.4811151-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-08-10T07:31:00.6034922-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "[ModLoaderDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Modloaders",
+    "elapsedTime": "81.00"
+  }
+},
+{
+  "timestamp": "2024-08-10T07:31:00.6699369-05:00",
+  "level": "Info",
+  "thread": 16,
+  "memory": 0.0,
+  "message": "[MinecraftVersionDatabase] Completed download of cache",
+  "data": {
+    "name": "Minecraft Versions",
+    "elapsedTime": "37.00"
+  }
+},
+{
+  "timestamp": "2024-08-10T07:31:00.9402856-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Starting Game Instance Retail scan"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.943048-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Retail. Operation took 1 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.9430795-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Retail"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.9430815-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Checking for game instance Retail updates"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.9432555-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.9784136-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-08-10T07:31:00.9784249-05:00",
+  "level": "Warn",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0044309-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Retail. Operation took 61 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0059918-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed game instance Retail scan. Operation took 65 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0060107-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Starting Game Instance Cataclysm Classic scan"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0062198-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Cataclysm Classic. Operation took 0 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0062209-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Cataclysm Classic"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0062223-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Checking for game instance Cataclysm Classic updates"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0062344-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.054234-05:00",
+  "level": "Info",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.054246-05:00",
+  "level": "Warn",
+  "thread": 20,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-08-10T07:31:01.05814-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Cataclysm Classic. Operation took 51 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0582167-05:00",
+  "level": "Info",
+  "thread": 14,
+  "memory": 0.0,
+  "message": "Completed game instance Cataclysm Classic scan. Operation took 52 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0582204-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Starting Game Instance Classic scan"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0583726-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Processed invalid installed mods for Classic. Operation took 0 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0583736-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Performing a minimal scan of Classic"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.058376-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Checking for game instance Classic updates"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.0583892-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.112838-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed checking for updates in instance Classic. Operation took 54 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.1128852-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Completed game instance Classic scan. Operation took 54 ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.1513445-05:00",
+  "level": "Info",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "Validating Minecraft installation"
+},
+{
+  "timestamp": "2024-08-10T07:31:01.1513547-05:00",
+  "level": "Warn",
+  "thread": 12,
+  "memory": 0.0,
+  "message": "/home/colby/Documents/curseforge/minecraft/Install/minecraft-launcher not found."
+},
+{
+  "timestamp": "2024-08-10T07:31:03.9900554-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on InstalledAddonDatabase -> GetAddons"
+},
+{
+  "timestamp": "2024-08-10T07:31:04.1300533-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading project file from https://edge.forgecdn.net/files/5575/343/DBM-Core-11.0.2.zip"
+},
+{
+  "timestamp": "2024-08-10T07:31:04.1432213-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloading: https://edge.forgecdn.net/files/5575/343/DBM-Core-11.0.2.zip to /tmp/CF/bVH8BDgkm0GxmJhtXk1bqw/1.zip"
+},
+{
+  "timestamp": "2024-08-10T07:31:04.7813361-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on UnzipFileInstallTask.Run -> ZipUtils.ExtractZip"
+},
+{
+  "timestamp": "2024-08-10T07:31:04.922624-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Downloaded full file for project Deadly Boss Mods (DBM) - (3358) in 793ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.0879413-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Cached project file for project Deadly Boss Mods (DBM) - (3358) in 165ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.1947333-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Core"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2018399-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Affixes"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2020047-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Brawlers"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2024431-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-DragonIsles"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2026539-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-KhazAlgar"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2028299-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-Dragonflight"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2036193-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Raids-WarWithin"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2039595-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-GUI"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2051659-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Test"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2053547-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-Test-Dragonflight"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2056063-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-StatusBarTimers"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2058191-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Removing ReadOnly attribute from folder /home/colby/Games/battlenet/drive_c/Program Files (x86)/World of Warcraft/_retail_/Interface/AddOns/DBM-VPVEM"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2772915-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2842306-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "Attempt #1 of 3 on DeleteFolderInstallTask.Run -> _folder.Delete"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.2876579-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-08-10T07:31:05.4175607-05:00",
+  "level": "Info",
+  "thread": 17,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 129ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0102125-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Curse Mods Agent is shutting down"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0102748-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Shutting down periodic tasks"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0103539-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Disabling periodic timers"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0116719-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0116758-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0116768-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[InstallTaskManager] Install Manager Shutting Down"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0117339-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "Shutdown game instances."
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0122061-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saving GameInstance DB with 0 items"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.0447018-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[MinecraftGameInstance] GameInstance.SaveInstancesToDisk: Saved GameInstance DB, which took 32ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.045282-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saving AddonGameInstance DB with 3 items"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.130693-05:00",
+  "level": "Info",
+  "thread": 22,
+  "memory": 0.0,
+  "message": "[AddonGameInstance] GameInstance.SaveInstancesToDisk: Saved AddonGameInstance DB, which took 85ms"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.1444766-05:00",
+  "level": "Info",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Web Socket session disconnected"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.1452014-05:00",
+  "level": "Warn",
+  "thread": 19,
+  "memory": 0.0,
+  "message": "Client disconnected from server"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.2777257-05:00",
+  "level": "Warn",
+  "thread": 5,
+  "memory": 0.0,
+  "message": "Parent process is no longer active. Mods Agent will shutdown."
+},
+{
+  "timestamp": "2024-08-10T07:31:11.2778437-05:00",
+  "level": "Warn",
+  "thread": 1,
+  "memory": 0.0,
+  "message": "Parent process exit. Shutting down..."
+},
+{
+  "timestamp": "2024-08-10T07:31:11.2821072-05:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Shutting down the logger"
+},
+{
+  "timestamp": "2024-08-10T07:31:11.3248532-05:00",
+  "level": "Info",
+  "thread": 2,
+  "memory": 0.0,
+  "message": "Logging worker finished"
+}
+]}

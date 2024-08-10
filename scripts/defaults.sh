@@ -13,5 +13,9 @@ sudo xbps-install linux-headers base-devel xmirror gnome-keyring cronie \
     Thunar thunar-archive-plugin thunar-media-tags-plugin thunar-volman tumbler \
     gvfs xarchiver rofi galculator-gtk3 geany gamemode lxsession curl wget cargo \
     sxiv scrot nitrogen alsa-utils mesa-dri-32bit arc-theme fastfetch noto-fonts-emoji \
-    htop mpv noto-fonts-ttf \
-    i3 i3status autotiling -yy
+    htop mpv noto-fonts-ttf bsdtar \
+    i3 i3status autotiling -yy && \
+# Lutris Gaming
+sudo xbps-install libunwind libunwind-32bit mesa-dri mesa-vaapi \
+    mesa-vdpau mesa-vulkan-radeon vulkan-loader vulkan-loader-32bit \
+    mesa-vulkan-radeon-32bit lutris -yy
