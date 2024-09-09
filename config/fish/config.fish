@@ -1,7 +1,7 @@
 alias v="vim"
 #alias kde="dbus-run-session startplasma-wayland"
 #alias sway="kill pipewire && dbus-run-session sway"
-#alias sway="dbus-run-session sway --unsupported-gpu -D noscanout"
+alias sway="dbus-run-session sway -D noscanout"
 alias update="sudo xbps-install -Syu"
 alias clean="sudo xbps-remove -Oo && sudo vkpurge rm all"
 alias reboot="loginctl reboot"

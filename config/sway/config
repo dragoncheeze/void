@@ -22,7 +22,7 @@ set $term foot
 set $menu rofi -show-icons -show drun
 
 ### Output configuration
-output * bg ~/builds/wallpaper/woods.png fill mode 1920x1080@75Hz
+output * bg ~/builds/dotfiles/minimal-wallpaper/outrun.jpg fill mode 1920x1080@75Hz
 
 # Example configuration:
 #
@@ -65,7 +65,7 @@ output * bg ~/builds/wallpaper/woods.png fill mode 1920x1080@75Hz
     bindsym $mod+Return exec $term
     bindsym $mod+n exec thunar
     bindsym $mod+b exec firefox
-    bindsym $mod+g exec flatpak run net.lutris.Lutris
+    bindsym $mod+g exec lutris
     # Kill focused window
     bindsym $mod+x kill
 
@@ -207,12 +207,12 @@ bindsym $mod+r mode "resize"
 bar {
     position top
     status_command i3status
-    font pango:Ubuntu 14
+    font pango:Ubuntu 18
     colors {
-	   statusline #ebdbb2
-       background #282828
-       focused_workspace #ebdbb2 #458588 #ebdbb2
-       inactive_workspace #3c3836 #1d2021 #a89984
+	   statusline #ffffff
+       background #000000
+       focused_workspace  #77dd77 #200689 #ffffff
+       inactive_workspace #000000 #222222 #ffffff
     }
 }
 

@@ -17,5 +17,5 @@ sudo xbps-install linux-headers playerctl base-devel \
     sway seatd autotiling lxappearance -yy &&
 # Lutris Gaming
 sudo xbps-install libunwind libunwind-32bit mesa-dri mesa-vaapi \
-    mesa-vdpau mesa-vulkan-radeon vulkan-loader vulkan-loader-32bit \
+    lutris mesa-vdpau mesa-vulkan-radeon vulkan-loader vulkan-loader-32bit \
     mesa-vulkan-radeon-32bit -yy
