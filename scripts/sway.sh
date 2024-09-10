@@ -1,7 +1,7 @@
 #!/bin/sh
 # Default programs
 sudo xbps-install linux-headers playerctl base-devel \
-    gnome-keyring xdg-desktop-portal-gtk xmirror cronie \
+    noto-fonts-emoji gnome-keyring xdg-desktop-portal-gtk xmirror cronie \
     chrony pulseaudio pipewire libpulseaudio-32bit wl-clipboard \
     freetype freetype-32bit elogind nss-mdns dejavu-fonts-ttf \
     xtools vulkan-loader vulkan-loader-32bit xorg-server-xwayland\
