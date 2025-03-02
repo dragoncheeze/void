@@ -7,7 +7,7 @@ sudo xbps-install linux-headers playerctl base-devel \
     xtools vulkan-loader vulkan-loader-32bit xorg-server-xwayland\
     cups ipp-usb cups-filters ghostscript xdg-desktop-portal \
     xdg-desktop-portal-gtk xdg-user-dirs xdg-user-dirs-gtk xdg-utils \
-    python fuse dunst wine wine-32bit rsync foot firefox \
+    python fuse dunst wine wine-32bit rsync foot \
     dmenu gtk-engine-murrine ttf-ubuntu-font-family gnutls-32bit \
     libldap-32bit libgpg-error-32bit sqlite-32bit libpulseaudio-32bit \
     alsa-plugins-32bit nwg-look pavucontrol pulsemixer papirus-icon-theme \

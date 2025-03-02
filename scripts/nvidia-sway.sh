@@ -7,7 +7,7 @@ sudo xbps-install linux-headers base-devel xmirror gnome-keyring \
     libXft-devel libXinerama-devel elogind eudev nss-mdns xorg xtools vkd3d \
     vkd3d-32bit vulkan-loader vulkan-loader-32bit cups ipp-usb cups-filters \
     ghostscript xorg-apps xdg-desktop-portal xdg-user-dirs xdg-user-dirs-gtk \
-    xdg-utils python fuse dunst wine wine-32bit rsync alacritty firefox dmenu \
+    xdg-utils python fuse dunst wine wine-32bit rsync alacritty dmenu \
     gtk-engine-murrine ttf-ubuntu-font-family gnutls-32bit libldap-32bit \
     libgpg-error-32bit sqlite-32bit libpulseaudio-32bit alsa-plugins-32bit \
     nwg-look pavucontrol pulsemixer papirus-icon-theme Thunar file-roller \
