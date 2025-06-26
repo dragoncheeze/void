@@ -12,7 +12,7 @@ sudo xbps-install linux-headers playerctl base-devel \
     libldap-32bit libgpg-error-32bit sqlite-32bit libpulseaudio-32bit \
     alsa-plugins-32bit nwg-look pavucontrol pulsemixer papirus-icon-theme \
     Thunar file-roller thunar-archive-plugin thunar-media-tags-plugin \
-    thunar-volman tumbler gvfs rofi galculator-gtk3 geany gamemode lxsession \
+    thunar-volman tumbler gvfs fuzzel galculator-gtk3 geany gamemode lxsession \
     curl wget alsa-utils mesa-dri-32bit arc-theme fastfetch htop imv i3status \
     sway seatd autotiling lxappearance -yy &&
 # Lutris Gaming
