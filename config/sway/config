@@ -3,9 +3,9 @@
 # Copy this to ~/.config/sway/config and edit it to your liking.
 #
 # Read `man 5 sway` for a complete reference.
-seat seat0 xcursor_theme Capitaine
+seat seat0 xcursor_theme Adwaita
 exec lxpolkit
-exec pulseaudio -D
+exec pipewire 
 exec_always autotiling
 ### Variables
 #
@@ -19,10 +19,10 @@ set $right l
 
 # Variables
 set $term foot
-set $menu rofi -show-icons -show drun
+set $menu fuzzel 
 
 ### Output configuration
-output * bg ~/builds/dotfiles/minimal-wallpaper/outrun.jpg fill mode 1920x1080@75Hz
+output * bg ~/builds/gentoo/wallpaper/outrun.jpg fill mode 1920x1080@75Hz max_render_time 10
 
 # Example configuration:
 #
@@ -64,7 +64,7 @@ output * bg ~/builds/dotfiles/minimal-wallpaper/outrun.jpg fill mode 1920x1080@7
     # Start a terminal
     bindsym $mod+Return exec $term
     bindsym $mod+n exec thunar
-    bindsym $mod+b exec firefox
+    bindsym $mod+b exec flatpak run com.brave.Browser
     bindsym $mod+g exec lutris
     # Kill focused window
     bindsym $mod+x kill
