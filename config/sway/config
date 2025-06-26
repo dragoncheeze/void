@@ -22,7 +22,7 @@ set $term foot
 set $menu fuzzel 
 
 ### Output configuration
-output * bg ~/builds/gentoo/wallpaper/outrun.jpg fill mode 1920x1080@75Hz max_render_time 10
+output * bg ~/builds/void/wallpaper/outrun.jpg fill mode 1920x1080@75Hz max_render_time 10
 
 # Example configuration:
 #
